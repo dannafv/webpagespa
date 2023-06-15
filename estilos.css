@@ -92,6 +92,8 @@ nav ul li:hover{
     border-radius: 15px;
     padding: 20px 50px;
     margin: 0px 20px;
+    color: #9E9A9A;
+    font-size: 16px;
 }
 /*SECUNDARIO*/
 .container2{
