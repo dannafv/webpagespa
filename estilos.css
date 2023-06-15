@@ -1,0 +1,282 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
+  
+*{
+   /*border: 1px solid #ff0000;*/
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    /*font-family: in;*/
+    /*border: 1px solid #ff0000;*/
+    height: 30px;
+    padding: 20px 0px 20px 70px;
+    background-color: #A3A656;
+}
+
+.container{
+    align-items: center;
+}
+nav{
+    display: inline;
+    align-items: center;
+    width: 500px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 25px 0 0;
+    font-size: 16px;
+}
+nav ul li:hover{
+    color: #ffff00;
+}
+.header{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+.micuenta{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+#micuenta img{
+    width: 25px;
+    height: 25px;
+}
+/*section principal*/
+.cprincipal{
+    position: relative;
+}
+.cprincipal img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+#tituloespecial{
+    position:absolute;
+    top: 160px;
+    left: 150px;
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+}
+#especial{
+    position:absolute;
+    top: 300px;
+    left: 150px;
+    font-weight: 600;
+    font-size: 32px;
+}
+.reservacion{
+    background-color: #F2F6F6;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+#espacio{
+    border-radius: 15px;
+    padding: 20px 50px;
+    margin: 0px 20px;
+}
+/*SECUNDARIO*/
+.container2{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 ;
+}
+.container2 h5{
+    font-size: 16px;
+    font-style: Regular;
+}
+#tarjeta1{
+    width: 350px;
+    text-align: center;
+    padding: 0 134px 0 0;
+}
+#tarjeta2{
+    width: 350px;
+    text-align: center;
+    padding: 0 134px 0 0;
+}
+#tarjeta3{
+    width: 350px;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.tipo-masaje{
+    background-color: #A3A656;
+    color: #ffff;
+    height: 80px;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-weight: 600;
+    font-size: 32px;
+}
+.imagen-masaje{
+    width: 350px;
+    height: auto;
+}
+/*
+.tarjetas img{
+    width: auto;
+    height: 100%;
+}*/
+.descripcion{
+    text-align: left;
+    padding: 10px 20px 10px 0;
+    font-size: 16px;
+}
+.p-btnR{
+    padding-top: 20px;
+}
+.precio{
+    font-weight: 600;
+    float: left;
+    padding: 0 0 0 15px;
+    font-size: 35px;
+}
+.boton-reservar{
+    background-color: #A3A656;
+    color: #ffff;
+    text-align: center;
+    border-radius: 35px;
+    float: right;
+    padding: 15px 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.boton-reservar:hover{
+    background-color: #384001;
+}
+/*SUSCRIPCION*/
+.container3{
+    height: 770px;
+    background-color: #F2F6F6;
+/*    display: inline;*/
+   /*border: 10px solid pink;*/
+}
+/*SECCION 3*/
+#ct3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 30px;
+}
+.ptitle{
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 10px;
+}
+#suscripciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 50px 200px ;
+}
+.containercircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+    border:10px solid #384001
+}
+#suscripcion1{
+    width: 300px;
+    text-align: center;
+    padding: 0 134px 0 0;
+    justify-content: center;
+}
+#suscripcion2{
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding: 0  134px 0 0;
+}
+#suscripcion3{
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding: 0 134px 0 0;
+}
+.boton-condiciones{
+    background-color: #A3A656;
+    color: #ffff;
+    border-radius: 35px;
+    padding: 20px 70px;
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+.boton-condiciones:hover{
+    background-color: #384001;
+}
+.containeroptions{
+    display: flex;
+    justify-content: center;
+}
+.container3 ul{
+    text-align: left;    
+}
+.container3 ul li{
+    padding-bottom: 10px;
+}
+footer{
+    height: 97px;
+    background-color: #384001;
+    padding-left: 70px;
+}
+#redessociales{
+    display: inline;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.paginas nav ul li{
+    display: inline-block;
+    padding: 0 70px 0 0;
+    font-size: 14px;
+    color: #F2F6F6;
+}
+nav ul li:hover{
+    color: #ffff00;
+}
+#redessociales span img{
+    float: right;
+}
+
+
